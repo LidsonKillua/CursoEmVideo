@@ -17,7 +17,6 @@ while c <= 10:
     c += 1
 
 print('FIM')
-
 """
 Método com for:
 
