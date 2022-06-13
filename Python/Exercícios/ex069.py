@@ -8,6 +8,7 @@ B) quantos homens foram cadastrados.
 
 C) quantas mulheres tem menos de 20 anos.
 """
+
 cadulto = chomem = cmulhercmenosdvinte = 0
 
 while True:
