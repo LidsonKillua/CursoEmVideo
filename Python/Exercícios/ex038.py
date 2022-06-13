@@ -7,6 +7,7 @@ Exercício Python 038: Escreva um programa que leia dois números inteiros e com
 
 – Não existe valor maior, os dois são iguais
 """
+
 n1 = int(input('Primeiro número: '))
 n2 = int(input('Segundo número: '))
 
