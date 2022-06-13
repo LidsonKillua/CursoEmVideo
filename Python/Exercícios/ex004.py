@@ -1,3 +1,8 @@
+"""
+Exercício Python 4: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e mostre
+algumas informações possíveis sobre ele.
+"""
+
 item = input('Digite algo: ')
 print('O tipo primitivo desse valor é {}'.format(type(item)))
 print('Só tem espaços? {}'.format(item.isspace()))
