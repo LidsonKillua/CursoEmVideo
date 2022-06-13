@@ -13,6 +13,7 @@ Exercício Python 059: Crie um programa que leia dois valores e mostre um menu n
 
 Seu programa deverá realizar a operação solicitada em cada caso.
 """
+
 from time import sleep
 
 n1 = float(input('Primeiro valor: '))
