@@ -2,6 +2,7 @@
 Exercício Python 72: Crie um programa que tenha uma dupla totalmente preenchida com uma contagem por extenso,
 de zero até vinte. Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por extenso.
 """
+
 i = int(input('Digite um número entre 0 e 20: '))
 while not 0 <= i <= 20:
     i = int(input('Tente novamente, digite um número entre 0 e 20: '))
