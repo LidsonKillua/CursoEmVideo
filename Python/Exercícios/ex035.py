@@ -1,6 +1,7 @@
 """
 Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
 """
+
 print('-=-' * 15)
 print('Analisador de Triângulos')
 print('-=-' * 15)
@@ -14,9 +15,9 @@ c = float(input('Terceiro segmento: '))
 | a - b | < c < a + b
 '''
 tri = False
-if a > abs(b - c) and a < (b + c):
-    if b > abs(a - c) and b < (a + c):
-        if c > abs(a - b) and c < (a + b):
+if (b + c) > a > abs(b - c):
+    if (a + c) > b > abs(a - c):
+        if (a + b) > c > abs(a - b):
             tri = True
 
 if tri:
