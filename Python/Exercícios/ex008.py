@@ -1,6 +1,7 @@
 """
 Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros
 """
+
 metros = float(input('Digite o valor em metros: '))
 print('{:.2f} metro(s) são {:.2f} centímetro(s) e {:.2f} milímetro(s)'.format(metros, metros*100, metros*1000))
 # Melhoria proposta:
