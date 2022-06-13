@@ -3,6 +3,7 @@ Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre qu
 
 Considere US$1,00 = R$3,27
 """
+
 din = float(input('Dinheiro em reais: '))
 cot = 3.27
 dol = din/cot
