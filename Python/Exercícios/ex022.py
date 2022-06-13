@@ -7,6 +7,7 @@ Crie um programa que leia o nome completo de uma pessoa e mostre:
 
 – Quantas letras tem o primeiro nome.
 """
+
 nome = str(input('Digite seu nome completo: ')).strip()
 lista = nome.split()
 
