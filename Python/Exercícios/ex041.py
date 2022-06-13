@@ -11,6 +11,7 @@ Exercício Python 041: A Confederação Nacional de Natação precisa de um prog
 
 – Acima de 25 anos: MASTER
 """
+
 from datetime import date
 anoatual = date.today().year
 nascimento = int(input('Ano de Nascimento: '))
