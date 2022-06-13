@@ -1,2 +1,2 @@
-# [CursoEmVideo](cursoemvideo.com)
-Repositório para os exercícios do curso em vídeo
+# CursoEmVideo
+Repositório para os exercícios do [Curso em Vídeo](https://www.cursoemvideo.com)
