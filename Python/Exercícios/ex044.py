@@ -11,7 +11,8 @@ considerando o seu preço normal e condição de pagamento:
 
 – 3x ou mais no cartão: 20% de juros
 """
-print(10*'=',' LOJAS LIDSON ', 10*'=')
+
+print(10*'=', ' LOJAS LIDSON ', 10*'=')
 # print('{:=^40}'.format(' LOJAS LIDSON '))
 
 preco = float(input('Preço das compras: R$'))
