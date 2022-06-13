@@ -13,6 +13,7 @@ mostre seu status, de acordo com a tabela abaixo:
 
 – Acima de 40: Obesidade Mórbida
 """
+
 peso = float(input('Qual é seu peso? (Kg) '))
 altura = float(input('Qual é sua altura? (m) '))
 
