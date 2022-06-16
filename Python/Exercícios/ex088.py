@@ -6,7 +6,6 @@ quantos jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jog
 from random import randint
 from time import sleep
 
-
 print('-'*30)
 print(f'{"JOGA NA MEGA SENA":^30}')
 print('-'*30)
