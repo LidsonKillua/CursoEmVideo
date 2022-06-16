@@ -19,12 +19,8 @@ for i in range(3):
         if j == 2:
             somterccol += val
 
-        if i == 1:
-            if j == 0:
-                maxseglin = val
-            else:
-                if val > maxseglin:
-                    maxseglin = val
+        if i == 1 and (j == 0 or val > maxseglin):
+            maxseglin = val
 
 print('-='*40)
 for i in range(9):
